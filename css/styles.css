@@ -32,10 +32,7 @@ letter-spacing: 0.03em;
     color: var(--accent-color);
     
 }
-.logo:hover,
-.logo:focus {
-    color: var(--accent-color);
-}
+
 .site-nav-list {
     color: var(--title-text-color);
     list-style: none;
@@ -95,6 +92,7 @@ letter-spacing: 0.06em;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87;
+    font-family: inherit;
 
 }
 .site-hero-button:hover,
@@ -138,6 +136,37 @@ line-height: 1.7;
     line-height: 1.18;
 }
 
+
+
+/*portfolio main*/
+.portfolio-main{
+    background-color: var(--main-background-color);
+}
+.project-list{
+    list-style: none;
+}
+.button-list{
+list-style: none;
+}
+.button { background-color: #F5F4FA;
+ font-family: inherit;
+ font-size: 16px;
+ line-height: 1.62;
+}
+.button:focus,
+.button:hover  {
+    color: var(--white-color-text);
+    background-color: #2196F3;
+
+}
+.project-title{
+color: var(--title-text-color);
+}
+.project-description {
+    font-size: 16px;
+
+}
+
 /*footer*/
 .footer{
     background-color: var(--dark-bacground-color);
@@ -149,10 +178,7 @@ line-height: 1.7;
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
-.footer>.logo:hover,
-.footer>.logo:focus {
-    color: var(--accent-color);
-}
+
 
 .contacts-list {
 list-style: none;
@@ -189,7 +215,11 @@ font-style: normal;
 .button-list{
 list-style: none;
 }
-.button { background-color: #F5F4FA;}
+.button { background-color: #F5F4FA;
+ font-family: inherit;
+ font-size: 16px;
+ line-height: 1.62;
+}
 .button:focus,
 .button:hover  {
     color: var(--white-color-text);
