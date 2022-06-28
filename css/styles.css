@@ -9,6 +9,7 @@
     --light-grey-color: #ECECEC;
     --grey-bacground-color: #F5F4FA ;
     --footer-contact-color:  rgba(255, 255, 255, 0.6);
+    --figma-bacground-color: #E5E5E5 ;
 }
 
 
@@ -190,7 +191,7 @@ background-color: var(--grey-bacground-color);
 color: var(--title-text-color);
 font-size:18px ;
 line-height:2 ;
-letter-spacing: 00.06em;
+letter-spacing: 0.06em;
 background-color: var(--white-color);
 }
 
