@@ -19,6 +19,7 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing:  0.03em;
     font-size: 14px;
+    margin: 0;
    }
     
 /* Site navigation*/
@@ -136,12 +137,13 @@ text-transform: uppercase;
 .text{
 line-height: 1.7;
 }
-.company-team{
-background-color: var(--grey-bacground-color);
-}
+
 .work-list{
     list-style: none;
 }
+.company-team{
+    background-color: var(--grey-bacground-color);
+    }
 .team-list{
     list-style: none;
     }
